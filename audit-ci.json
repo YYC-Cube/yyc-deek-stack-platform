@@ -1,0 +1,7 @@
+{
+  "moderate": true,
+  "allowlist": [],
+  "registry": "https://registry.npmjs.org/",
+  "report-type": "summary",
+  "output-format": "text"
+}

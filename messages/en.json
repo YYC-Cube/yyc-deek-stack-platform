@@ -1,0 +1,115 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "home": "Home",
+    "integrations": "Integrations",
+    "marketplace": "Marketplace",
+    "favorites": "Favorites",
+    "settings": "Settings",
+    "profile": "Profile",
+    "logout": "Logout",
+    "login": "Login",
+    "signup": "Sign Up",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "close": "Close"
+  },
+  "nav": {
+    "home": "Home",
+    "integrations": "Integrations",
+    "marketplace": "Marketplace",
+    "favorites": "Favorites",
+    "aiAssistant": "AI Assistant",
+    "developer": "Developer",
+    "docs": "Documentation",
+    "support": "Support",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "YanYuCloud³ Integration Center",
+      "subtitle": "All things converge in the cloud hub | Deep stack opens a new era",
+      "description": "Discover, connect and manage powerful integration apps to improve your business efficiency",
+      "browseIntegrations": "Browse Integrations",
+      "aiAssistant": "AI Assistant",
+      "hideAssistant": "Hide Assistant"
+    },
+    "features": {
+      "title": "Core Features",
+      "quickIntegration": {
+        "title": "Quick Integration",
+        "description": "Connect various apps with one click, no complex configuration required"
+      },
+      "secureReliable": {
+        "title": "Secure & Reliable",
+        "description": "Enterprise-level security, encrypted data transmission"
+      },
+      "globalConnection": {
+        "title": "Global Connection",
+        "description": "Support services worldwide, seamless cross-border collaboration"
+      },
+      "dataSync": {
+        "title": "Data Sync",
+        "description": "Real-time data synchronization ensures information consistency"
+      }
+    },
+    "integrationEngine": {
+      "title": "Integration Engine",
+      "viewAll": "View All"
+    }
+  },
+  "integrations": {
+    "title": "Integration Center",
+    "search": "Search integrations...",
+    "category": "Category",
+    "allCategories": "All Categories",
+    "install": "Install",
+    "installed": "Installed",
+    "viewDetails": "View Details",
+    "noResults": "No matching integrations found",
+    "tryAdjustFilters": "Try adjusting your filters",
+    "details": {
+      "description": "Description",
+      "features": "Key Features",
+      "techSpecs": "Technical Specifications",
+      "info": "Integration Info",
+      "developer": "Developer",
+      "version": "Version",
+      "updated": "Updated",
+      "license": "License",
+      "related": "Related Integrations",
+      "backToList": "Back to List",
+      "viewDocs": "View Docs"
+    }
+  },
+  "footer": {
+    "copyright": "© YanYu Cloud³ {year}. All rights reserved.",
+    "about": "About Us",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "offline": {
+    "title": "You are currently offline",
+    "description": "Please check your network connection",
+    "retry": "Retry Connection"
+  },
+  "errors": {
+    "notFound": "Page Not Found",
+    "serverError": "Server Error",
+    "unauthorized": "Unauthorized Access",
+    "forbidden": "Forbidden",
+    "rateLimited": "Too many requests, please try again later"
+  }
+}
