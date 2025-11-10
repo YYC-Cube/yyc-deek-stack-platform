@@ -50,9 +50,9 @@ export default function MarketplacePage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="text-4xl md:text-5xl font-bold mb-4"
+                className="text-4xl font-bold mb-4 md:text-4xl"
               >
-                言语云³ 集成应用市场
+                YanYuCloud³ Integrated App Market
               </motion.h1>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}

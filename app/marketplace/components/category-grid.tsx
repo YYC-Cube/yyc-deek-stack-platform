@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { motion } from "framer-motion"
 import Link from "next/link"
 import {
-  BarChart,
+  ArrowUpNarrowWideIcon,BarChart,
   Mail,
   ShoppingCart,
   Users,
@@ -53,7 +53,7 @@ export function CategoryGrid({ categories }: CategoryGridProps) {
             <Card className="h-full hover:border-primary/50 transition-all duration-300">
               <CardContent className="p-4 flex flex-col items-center text-center">
                 <div className="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center mb-3">
-                  {categoryIcons[category] || <BarChart className="w-6 h-6 text-gray-600" />}
+                  {categoryIcons[category] || <ArrowUpNarrowWideIcon className="w-6 h-6 text-primary" />}
                 </div>
                 <h3 className="text-sm font-medium">{category}</h3>
               </CardContent>

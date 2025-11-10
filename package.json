@@ -38,7 +38,6 @@
     "@ai-sdk/google": "latest",
     "@ai-sdk/openai": "latest",
     "@emotion/is-prop-valid": "latest",
-    "@jest/globals": "latest",
     "@radix-ui/react-accordion": "latest",
     "@radix-ui/react-alert-dialog": "latest",
     "@radix-ui/react-aspect-ratio": "latest",
@@ -103,6 +102,7 @@
     "zod": "latest"
   },
   "devDependencies": {
+    "@jest/globals": "^29.7.0",
     "@playwright/test": "^1.40.0",
     "@testing-library/jest-dom": "^6.1.5",
     "@testing-library/react": "^14.1.2",

@@ -9,9 +9,9 @@ export function PerformanceMonitor() {
     if (typeof window !== "undefined") {
       // 动态导入web-vitals库
       import("web-vitals")
-        .then(({ onCLS, onFID, onFCP, onLCP, onTTFB }) => {
+        .then(({ onCLS, onINP, onFCP, onLCP, onTTFB }) => {
           onCLS(reportWebVitals)
-          onFID(reportWebVitals)
+          onINP(reportWebVitals)
           onFCP(reportWebVitals)
           onLCP(reportWebVitals)
           onTTFB(reportWebVitals)

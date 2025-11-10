@@ -175,7 +175,6 @@ export default function HomePage() {
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <Button
-                  asChild
                   size="lg"
                   className="px-8 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700"
                 >
@@ -243,7 +242,7 @@ export default function HomePage() {
               <h2 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">
                 集成引擎
               </h2>
-              <Button asChild variant="outline">
+              <Button variant="outline" asChild>
                 <Link href="/integrations">
                   查看全部
                   <ArrowRight className="ml-2 h-4 w-4" />

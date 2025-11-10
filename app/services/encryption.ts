@@ -72,7 +72,7 @@ export async function deriveKey(password: string, salt: Uint8Array): Promise<Cry
     },
     keyMaterial,
     { name: ENCRYPTION_ALGORITHM, length: KEY_LENGTH },
-    false, // 不可导出
+    false, // 不可导��
     ["encrypt", "decrypt"],
   )
 }

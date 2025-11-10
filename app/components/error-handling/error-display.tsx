@@ -14,12 +14,14 @@ interface ErrorDisplayProps {
   showDetails?: boolean
 }
 
+const isDevelopment = process.env.NEXT_PUBLIC_NODE_ENV === "development"
+
 export function ErrorDisplay({
   error,
   errorInfo,
   resetError,
   title = "页面出现了问题",
-  showDetails = process.env.NODE_ENV === "development",
+  showDetails = isDevelopment,
 }: ErrorDisplayProps) {
   const errorMessage = error?.message || "未知错误"
 
@@ -51,12 +53,12 @@ export function ErrorDisplay({
           </div>
         </CardContent>
         <CardFooter className="flex justify-between gap-4 border-t pt-4">
-          <Button variant="outline" asChild>
-            <Link href="/" className="flex items-center gap-1">
+          <Link href="/">
+            <Button variant="outline" className="flex items-center gap-1 bg-transparent">
               <Home className="h-4 w-4" />
               <span>返回首页</span>
-            </Link>
-          </Button>
+            </Button>
+          </Link>
 
           {resetError && (
             <Button onClick={resetError} className="flex items-center gap-1 bg-red-600 hover:bg-red-700">

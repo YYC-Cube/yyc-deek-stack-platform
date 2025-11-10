@@ -1,5 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  env: {
+    NEXT_PUBLIC_NODE_ENV: process.env.NODE_ENV || 'development',
+    NEXT_PUBLIC_APP_VERSION: process.env.npm_package_version || '1.0.0',
+    NEXT_PUBLIC_BUILD_DATE: new Date().toISOString(),
+  },
+
   // 恢复类型检查和ESLint检查以提升代码质量
   eslint: {
     ignoreDuringBuilds: false, // 启用构建时ESLint检查

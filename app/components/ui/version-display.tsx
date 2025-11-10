@@ -15,8 +15,8 @@ export function VersionDisplay({ className = "", showDetails = false }: VersionD
   const [isExpanded, setIsExpanded] = useState(false)
   const version = process.env.NEXT_PUBLIC_APP_VERSION || "开发版本"
   const buildDate = process.env.NEXT_PUBLIC_BUILD_DATE
+  const nodeEnv = process.env.NEXT_PUBLIC_NODE_ENV || "development"
 
-  // 解析版本信息（假设格式为 v1.2.3-hash 或 1.2.3）
   const versionInfo = parseVersion(version)
 
   return (
@@ -93,7 +93,7 @@ export function VersionDisplay({ className = "", showDetails = false }: VersionD
               </tr>
               <tr>
                 <td className="pr-4 py-1 font-medium">环境:</td>
-                <td>{process.env.NODE_ENV || "development"}</td>
+                <td>{nodeEnv}</td>
               </tr>
             </tbody>
           </table>
