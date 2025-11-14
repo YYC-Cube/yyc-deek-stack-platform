@@ -269,8 +269,8 @@ docker run -p 3000:3000 yanyu-cloud
 ## 联系我们
 
 - **官网**: https://yy.0379.pro
-- **邮箱**: support@yanyucloud.com
-- **GitHub**: https://github.com/YY-Nexus/NetTrack
+- **邮箱**: admin@0379.email
+- **GitHub**: https://github.com/YYC-Cube/yyc-deek-stack-platform
 
 ---
 
