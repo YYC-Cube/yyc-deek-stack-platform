@@ -268,10 +268,9 @@ docker run -p 3000:3000 yanyu-cloud
 
 ## 联系我们
 
-- **官网**: https://yy.0379.pro
+- **官网**: https://ds.mymgmt.top
 - **邮箱**: admin@0379.email
-- **GitHub**: https://github.com/YYC-Cube/yyc-deek-stack-platform
-
+- **GitHub**: https://github.com/YYC-Cube/yyc-deek-stack-platform.git
 ---
 
 <div align="center">
